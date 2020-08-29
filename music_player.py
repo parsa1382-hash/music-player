@@ -7,7 +7,6 @@ from tkinter import filedialog, Text, ttk
 from tkinter import*
 from PIL import Image, ImageTk
 from PIL import*
-import matplotlib.image as mg
 from functools import partial
 from mutagen.mp3 import MP3
 import sys
