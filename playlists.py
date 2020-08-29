@@ -1,5 +1,4 @@
 import os
-import numpy as np
 import time
 import pickle
 import pygame
@@ -8,14 +7,11 @@ from tkinter import filedialog, Text, ttk
 from tkinter import*
 from PIL import Image, ImageTk
 from PIL import*
-from scipy.ndimage.measurements import label
-#from scipy.misc import toimage
-import matplotlib.image as mg
 from functools import partial
 from mutagen.mp3 import MP3
+from mutagen.id3 import ID3
 import sys
 from io import BytesIO
-from mutagen.id3 import ID3
 
 ############            root           #############
 root=tk.Tk()
